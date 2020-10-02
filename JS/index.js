@@ -1,4 +1,4 @@
-
+window.sr = ScrollReveal({ /*reset: true*/ });
 var minWidth200px = window.matchMedia("(min-width:200px)");
 var minWidth640px = window.matchMedia("(min-width:640px)");
 var minWidth1024px = window.matchMedia("(min-width:1024px)");
@@ -8,7 +8,7 @@ var minWidth1024px = window.matchMedia("(min-width:1024px)");
 });*/
 
 $(document).ready(() => {
-window.sr = ScrollReveal({ /*reset: true*/ });
+
 //hide loading when all is loaded
 $(".loader-wrapper").css('display', 'none');
 document.querySelector("body").style.overflow = "scroll";
