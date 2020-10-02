@@ -3,353 +3,353 @@ var minWidth200px = window.matchMedia("(min-width:200px)");
 var minWidth640px = window.matchMedia("(min-width:640px)");
 var minWidth1024px = window.matchMedia("(min-width:1024px)");
 
-$(window).on('load', function () {
-	//hide loading when all is loaded
-	$(".loader-wrapper").css('display', 'none');
-	document.querySelector("body").style.overflow = "scroll";
-
-	//*******************RESPONSIVE ANIMATIONS************************//
-	//----------SMALL SIZE SCREEN ANIM
-	if (minWidth200px.matches) {
-
-		sr.reveal('h1.banner', {
-			duration: 1000,
-			origin: 'top',
-			distance: '5rem',
-			viewFactor: 1,
-		});
-		sr.reveal('p.lead', {
-			duration: 1000,
-			origin: 'top',
-			distance: '5rem',
-			delay: 500,
-			viewFactor: 1,
-		});
-		sr.reveal('div.timeline', {
-			duration: 700,
-			origin: 'bottom',
-			distance: '5rem',
-			viewFactor: 0,
-			interval: 100,
-			rotate: {
-				y: 100,
-			},
-			scale: 0.75
-		});
-		sr.reveal('li.media', {
-			duration: 700,
-			origin: 'bottom',
-			distance: '5rem',
-			viewFactor: 0,
-			interval: 100
-		});
-		sr.reveal('h1.h1Bio', {
-			duration: 700,
-			origin: 'top',
-			distance: '5rem',
-			viewFactor: 0,
-		});
-		sr.reveal('h3.h1Bio', {
-			duration: 700,
-			origin: 'top',
-			distance: '5rem',
-			viewFactor: 0,
-			delay: 300
-		});
-		sr.reveal('.colBioPic', {
-			duration: 700,
-			origin: 'bottom',
-			distance: '5rem',
-			viewFactor: 0,
-			delay: 700
-		});
-		sr.reveal('hr', {
-			duration: 1000,
-			origin: 'top',
-			distance: '5rem',
-			viewFactor: 1,
-		});
-		sr.reveal('h1.text-center', {
-			duration: 1000,
-			origin: 'top',
-			distance: '3rem',
-			viewFactor: 1,
-		});
-		sr.reveal('div.img-hover-zoom', {
-			duration: 700,
-			origin: 'bottom',
-			distance: '5rem',
-			viewFactor: 0,
-		});
-		sr.reveal('em', {
-			duration: 700,
-			origin: 'top',
-			distance: '5rem',
-			viewFactor: 1,
-			scale: 0.75,
-			delay: 600
-		});
-		sr.reveal('img.timelinePic', {
-			duration: 700,
-			origin: 'top',
-			distance: '5rem',
-			viewFactor: 0,
-			rotate: {
-				y: 100,
-			},
-			scale: 0.75,
-			delay: 600
-		});
-		sr.reveal('p.bioP1', {
-			duration: 700,
-			origin: 'top',
-			distance: '5rem',
-			viewFactor: 0,
-		});
-		sr.reveal('p.bioP2', {
-			duration: 700,
-			origin: 'top',
-			distance: '5rem',
-			viewFactor: 0,
-			delay: 300
-		});
-		sr.reveal('.hrBioEnd', {
-			duration: 700,
-			origin: 'top',
-			distance: '5rem',
-			viewFactor: 0,
-			delay: 300
-		});
-
-	};
-	if (minWidth640px.matches) {
-		sr.reveal('h1.banner', {
-			duration: 1000,
-			origin: 'top',
-			distance: '5rem',
-			viewFactor: 1,
-		});
-		sr.reveal('p.lead', {
-			duration: 1000,
-			origin: 'top',
-			distance: '5rem',
-			delay: 500,
-			viewFactor: 1,
-		});
-		sr.reveal('div.timeline', {
-			duration: 700,
-			origin: 'bottom',
-			distance: '5rem',
-			viewFactor: 0,
-			interval: 100,
-			rotate: {
-				y: 100,
-			},
-			scale: 0.75
-		});
-		sr.reveal('li.media', {
-			duration: 700,
-			origin: 'bottom',
-			distance: '5rem',
-			viewFactor: 0,
-			interval: 100
-		});
-		sr.reveal('h1.h1Bio', {
-			duration: 700,
-			origin: 'top',
-			distance: '5rem',
-			viewFactor: 0,
-		});
-		sr.reveal('h3.h1Bio', {
-			duration: 700,
-			origin: 'top',
-			distance: '5rem',
-			viewFactor: 0,
-			delay: 300
-		});
-		sr.reveal('.colBioPic', {
-			duration: 700,
-			origin: 'bottom',
-			distance: '5rem',
-			viewFactor: 0,
-			delay: 700
-		});
-		sr.reveal('hr', {
-			duration: 1000,
-			origin: 'top',
-			distance: '5rem',
-			viewFactor: 1,
-		});
-		sr.reveal('h1.text-center', {
-			duration: 1000,
-			origin: 'top',
-			distance: '3rem',
-			viewFactor: 1,
-		});
-		sr.reveal('div.img-hover-zoom', {
-			duration: 700,
-			origin: 'bottom',
-			distance: '5rem',
-			viewFactor: 0,
-		});
-		sr.reveal('em', {
-			duration: 700,
-			origin: 'top',
-			distance: '5rem',
-			viewFactor: 1,
-			scale: 0.75,
-			delay: 600
-		});
-		sr.reveal('img.timelinePic', {
-			duration: 700,
-			origin: 'top',
-			distance: '5rem',
-			viewFactor: 0,
-			rotate: {
-				y: 100,
-			},
-			scale: 0.75,
-			delay: 600
-		});
-		sr.reveal('p.bioP1', {
-			duration: 700,
-			origin: 'top',
-			distance: '5rem',
-			viewFactor: 0,
-		});
-		sr.reveal('p.bioP2', {
-			duration: 700,
-			origin: 'top',
-			distance: '5rem',
-			viewFactor: 0,
-			delay: 300
-		});
-		sr.reveal('.hrBioEnd', {
-			duration: 700,
-			origin: 'top',
-			distance: '5rem',
-			viewFactor: 0,
-			delay: 300
-		});
-	};
-	//------LARGE SIZE SCREEN ANIM
-	if (minWidth1024px.matches) {
-
-		//banner anim
-		sr.reveal('h1.banner', {
-			duration: 1000,
-			origin: 'left',
-			distance: '5rem',
-			viewFactor: 1,
-		});
-		sr.reveal('p.lead', {
-			duration: 1000,
-			origin: 'left',
-			distance: '5rem',
-			delay: 500,
-			viewFactor: 1,
-		});
-		sr.reveal('hr', {
-			duration: 1000,
-			origin: 'top',
-			distance: '5rem',
-			viewFactor: 1,
-		});
-		sr.reveal('h1.text-center', {
-			duration: 1000,
-			origin: 'top',
-			distance: '3rem',
-			viewFactor: 1,
-		});
-		sr.reveal('div.img-hover-zoom', {
-			duration: 700,
-			origin: 'bottom',
-			distance: '5rem',
-			viewFactor: 0,
-		});
-		sr.reveal('div.timeline', {
-			duration: 700,
-			origin: 'left',
-			distance: '5rem',
-			viewFactor: 0,
-			interval: 100,
-			rotate: {
-				y: 100,
-			},
-			scale: 0.75
-		});
-		sr.reveal('em', {
-			duration: 700,
-			origin: 'top',
-			distance: '5rem',
-			viewFactor: 1,
-			scale: 0.75,
-			delay: 600
-		});
-		sr.reveal('img.timelinePic', {
-			duration: 700,
-			origin: 'top',
-			distance: '5rem',
-			viewFactor: 0,
-			rotate: {
-				y: 100,
-			},
-			scale: 0.75,
-			delay: 600
-		});
-		sr.reveal('li.media', {
-			duration: 700,
-			origin: 'right',
-			distance: '5rem',
-			viewFactor: 0,
-			interval: 100
-		});
-		sr.reveal('h1.h1Bio', {
-			duration: 700,
-			origin: 'left',
-			distance: '5rem',
-			viewFactor: 0,
-		});
-		sr.reveal('h3.h1Bio', {
-			duration: 700,
-			origin: 'left',
-			distance: '5rem',
-			viewFactor: 0,
-			delay: 300
-		});
-		sr.reveal('p.bioP1', {
-			duration: 700,
-			origin: 'top',
-			distance: '5rem',
-			viewFactor: 0,
-		});
-		sr.reveal('p.bioP2', {
-			duration: 700,
-			origin: 'top',
-			distance: '5rem',
-			viewFactor: 0,
-			delay: 300
-		});
-		sr.reveal('.hrBioEnd', {
-			duration: 700,
-			origin: 'top',
-			distance: '5rem',
-			viewFactor: 0,
-			delay: 300
-		});
-		sr.reveal('.colBioPic', {
-			duration: 700,
-			origin: 'left',
-			distance: '5rem',
-			viewFactor: 0,
-			delay: 700
-		});
-
-	}
-
-});
+/*$(window).on('load', function () {
+	
+});*/
 
 $(document).ready(() => {
+//hide loading when all is loaded
+$(".loader-wrapper").css('display', 'none');
+document.querySelector("body").style.overflow = "scroll";
+
+//*******************RESPONSIVE ANIMATIONS************************//
+//----------SMALL SIZE SCREEN ANIM
+if (minWidth200px.matches) {
+
+	sr.reveal('h1.banner', {
+		duration: 1000,
+		origin: 'top',
+		distance: '5rem',
+		viewFactor: 1,
+	});
+	sr.reveal('p.lead', {
+		duration: 1000,
+		origin: 'top',
+		distance: '5rem',
+		delay: 500,
+		viewFactor: 1,
+	});
+	sr.reveal('div.timeline', {
+		duration: 700,
+		origin: 'bottom',
+		distance: '5rem',
+		viewFactor: 0,
+		interval: 100,
+		rotate: {
+			y: 100,
+		},
+		scale: 0.75
+	});
+	sr.reveal('li.media', {
+		duration: 700,
+		origin: 'bottom',
+		distance: '5rem',
+		viewFactor: 0,
+		interval: 100
+	});
+	sr.reveal('h1.h1Bio', {
+		duration: 700,
+		origin: 'top',
+		distance: '5rem',
+		viewFactor: 0,
+	});
+	sr.reveal('h3.h1Bio', {
+		duration: 700,
+		origin: 'top',
+		distance: '5rem',
+		viewFactor: 0,
+		delay: 300
+	});
+	sr.reveal('.colBioPic', {
+		duration: 700,
+		origin: 'bottom',
+		distance: '5rem',
+		viewFactor: 0,
+		delay: 700
+	});
+	sr.reveal('hr', {
+		duration: 1000,
+		origin: 'top',
+		distance: '5rem',
+		viewFactor: 1,
+	});
+	sr.reveal('h1.text-center', {
+		duration: 1000,
+		origin: 'top',
+		distance: '3rem',
+		viewFactor: 1,
+	});
+	sr.reveal('div.img-hover-zoom', {
+		duration: 700,
+		origin: 'bottom',
+		distance: '5rem',
+		viewFactor: 0,
+	});
+	sr.reveal('em', {
+		duration: 700,
+		origin: 'top',
+		distance: '5rem',
+		viewFactor: 1,
+		scale: 0.75,
+		delay: 600
+	});
+	sr.reveal('img.timelinePic', {
+		duration: 700,
+		origin: 'top',
+		distance: '5rem',
+		viewFactor: 0,
+		rotate: {
+			y: 100,
+		},
+		scale: 0.75,
+		delay: 600
+	});
+	sr.reveal('p.bioP1', {
+		duration: 700,
+		origin: 'top',
+		distance: '5rem',
+		viewFactor: 0,
+	});
+	sr.reveal('p.bioP2', {
+		duration: 700,
+		origin: 'top',
+		distance: '5rem',
+		viewFactor: 0,
+		delay: 300
+	});
+	sr.reveal('.hrBioEnd', {
+		duration: 700,
+		origin: 'top',
+		distance: '5rem',
+		viewFactor: 0,
+		delay: 300
+	});
+
+};
+if (minWidth640px.matches) {
+	sr.reveal('h1.banner', {
+		duration: 1000,
+		origin: 'top',
+		distance: '5rem',
+		viewFactor: 1,
+	});
+	sr.reveal('p.lead', {
+		duration: 1000,
+		origin: 'top',
+		distance: '5rem',
+		delay: 500,
+		viewFactor: 1,
+	});
+	sr.reveal('div.timeline', {
+		duration: 700,
+		origin: 'bottom',
+		distance: '5rem',
+		viewFactor: 0,
+		interval: 100,
+		rotate: {
+			y: 100,
+		},
+		scale: 0.75
+	});
+	sr.reveal('li.media', {
+		duration: 700,
+		origin: 'bottom',
+		distance: '5rem',
+		viewFactor: 0,
+		interval: 100
+	});
+	sr.reveal('h1.h1Bio', {
+		duration: 700,
+		origin: 'top',
+		distance: '5rem',
+		viewFactor: 0,
+	});
+	sr.reveal('h3.h1Bio', {
+		duration: 700,
+		origin: 'top',
+		distance: '5rem',
+		viewFactor: 0,
+		delay: 300
+	});
+	sr.reveal('.colBioPic', {
+		duration: 700,
+		origin: 'bottom',
+		distance: '5rem',
+		viewFactor: 0,
+		delay: 700
+	});
+	sr.reveal('hr', {
+		duration: 1000,
+		origin: 'top',
+		distance: '5rem',
+		viewFactor: 1,
+	});
+	sr.reveal('h1.text-center', {
+		duration: 1000,
+		origin: 'top',
+		distance: '3rem',
+		viewFactor: 1,
+	});
+	sr.reveal('div.img-hover-zoom', {
+		duration: 700,
+		origin: 'bottom',
+		distance: '5rem',
+		viewFactor: 0,
+	});
+	sr.reveal('em', {
+		duration: 700,
+		origin: 'top',
+		distance: '5rem',
+		viewFactor: 1,
+		scale: 0.75,
+		delay: 600
+	});
+	sr.reveal('img.timelinePic', {
+		duration: 700,
+		origin: 'top',
+		distance: '5rem',
+		viewFactor: 0,
+		rotate: {
+			y: 100,
+		},
+		scale: 0.75,
+		delay: 600
+	});
+	sr.reveal('p.bioP1', {
+		duration: 700,
+		origin: 'top',
+		distance: '5rem',
+		viewFactor: 0,
+	});
+	sr.reveal('p.bioP2', {
+		duration: 700,
+		origin: 'top',
+		distance: '5rem',
+		viewFactor: 0,
+		delay: 300
+	});
+	sr.reveal('.hrBioEnd', {
+		duration: 700,
+		origin: 'top',
+		distance: '5rem',
+		viewFactor: 0,
+		delay: 300
+	});
+};
+//------LARGE SIZE SCREEN ANIM
+if (minWidth1024px.matches) {
+
+	//banner anim
+	sr.reveal('h1.banner', {
+		duration: 1000,
+		origin: 'left',
+		distance: '5rem',
+		viewFactor: 1,
+	});
+	sr.reveal('p.lead', {
+		duration: 1000,
+		origin: 'left',
+		distance: '5rem',
+		delay: 500,
+		viewFactor: 1,
+	});
+	sr.reveal('hr', {
+		duration: 1000,
+		origin: 'top',
+		distance: '5rem',
+		viewFactor: 1,
+	});
+	sr.reveal('h1.text-center', {
+		duration: 1000,
+		origin: 'top',
+		distance: '3rem',
+		viewFactor: 1,
+	});
+	sr.reveal('div.img-hover-zoom', {
+		duration: 700,
+		origin: 'bottom',
+		distance: '5rem',
+		viewFactor: 0,
+	});
+	sr.reveal('div.timeline', {
+		duration: 700,
+		origin: 'left',
+		distance: '5rem',
+		viewFactor: 0,
+		interval: 100,
+		rotate: {
+			y: 100,
+		},
+		scale: 0.75
+	});
+	sr.reveal('em', {
+		duration: 700,
+		origin: 'top',
+		distance: '5rem',
+		viewFactor: 1,
+		scale: 0.75,
+		delay: 600
+	});
+	sr.reveal('img.timelinePic', {
+		duration: 700,
+		origin: 'top',
+		distance: '5rem',
+		viewFactor: 0,
+		rotate: {
+			y: 100,
+		},
+		scale: 0.75,
+		delay: 600
+	});
+	sr.reveal('li.media', {
+		duration: 700,
+		origin: 'right',
+		distance: '5rem',
+		viewFactor: 0,
+		interval: 100
+	});
+	sr.reveal('h1.h1Bio', {
+		duration: 700,
+		origin: 'left',
+		distance: '5rem',
+		viewFactor: 0,
+	});
+	sr.reveal('h3.h1Bio', {
+		duration: 700,
+		origin: 'left',
+		distance: '5rem',
+		viewFactor: 0,
+		delay: 300
+	});
+	sr.reveal('p.bioP1', {
+		duration: 700,
+		origin: 'top',
+		distance: '5rem',
+		viewFactor: 0,
+	});
+	sr.reveal('p.bioP2', {
+		duration: 700,
+		origin: 'top',
+		distance: '5rem',
+		viewFactor: 0,
+		delay: 300
+	});
+	sr.reveal('.hrBioEnd', {
+		duration: 700,
+		origin: 'top',
+		distance: '5rem',
+		viewFactor: 0,
+		delay: 300
+	});
+	sr.reveal('.colBioPic', {
+		duration: 700,
+		origin: 'left',
+		distance: '5rem',
+		viewFactor: 0,
+		delay: 700
+	});
+
+}
 
 	//hide & show navbar by scrolling
 	$(window).scroll(function () {
