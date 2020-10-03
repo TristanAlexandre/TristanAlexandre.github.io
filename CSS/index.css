@@ -394,10 +394,7 @@ section.gallerie h1 {
 }
 
 /*MODAL*/
-.embed-responsive {
 
-    height: auto;
-}
 
 .modal-backdrop {
     background-color: rgba(255, 255, 255, 0.911);
@@ -1289,6 +1286,10 @@ section.bio p {
         padding-top: 1rem;
         background-color: #292929;
     }
+    .embed-responsive {
+
+        height: auto;
+    }
 }
 
 @media (max-width: 576px) {
@@ -1325,6 +1326,10 @@ section.bio p {
     header .container1 {
         top: 28rem;
         left: 1rem;
+    }
+    .embed-responsive {
+
+        height: auto;
     }
 }
 
@@ -1382,6 +1387,10 @@ section.bio p {
         top: 25rem;
         left: 1rem;
       }
+      .embed-responsive {
+
+        height: auto;
+    }
     
 }
 
@@ -1432,6 +1441,10 @@ section.bio p {
       header .container1 {
         top: 23rem;
         left: 1rem;
+    }
+    .embed-responsive {
+
+        height: auto;
     }
 }
 
@@ -1494,6 +1507,10 @@ section.bio p {
       header .container1 {
         top: 24rem;
         left: 1rem;
+    }
+    .embed-responsive {
+
+        height: auto;
     }
 
 }
