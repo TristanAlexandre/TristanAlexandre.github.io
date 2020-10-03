@@ -126,6 +126,7 @@ html {
     }
 }
 
+
 /*NAVBAR*/
 
 nav {
@@ -350,7 +351,7 @@ section.gallerie h1 {
 
 .column {
     flex: 25%;
-    max-width: 25%;
+    max-width: 20%;
     padding: 0px 14px;
 }
 
@@ -500,7 +501,7 @@ section.gallerie h1 {
 }
 .timelinePic {
     width: 30rem;
-    height: auto;
+    height: 100%;
 } 
 
 ol {
@@ -1097,7 +1098,7 @@ section.bio p {
 }
 .footerIMG1 {
     width: 8rem;
-    height: auto;
+    height: 4rem;
     margin: 1rem;
 }
 .footerIMG2 {
@@ -1155,6 +1156,9 @@ section.bio p {
     .fleche {
         top: 70rem;
     }
+    .modal-xl {
+        max-width: 848px;
+    }
 }
 
 @media (max-width: 1440px) {
@@ -1168,7 +1172,10 @@ section.bio p {
     #myBtn {
         bottom: 21px;
         right: 8rem; /* Place the button 30px from the right */
-      }
+    }
+    .modal-xl {
+        max-width: 848px;
+    }
 }
 
 /*XL*/
@@ -1180,6 +1187,9 @@ section.bio p {
     }
     .fleche {
         top: 49rem;
+    }
+    .modal-xl {
+        max-width: 770px !important;
     }
 }
 
