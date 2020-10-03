@@ -9,6 +9,17 @@ var minWidth1024px = window.matchMedia("(min-width:1024px)");
 
 
 $(document).ready(() => {
+
+
+	var iframe = $('#videoLoaded');
+    var player = new Vimeo.Player(iframe);
+
+    player.on('play', function() {
+        //hide loading when all is loaded
+			$(".loader-wrapper").css('display', 'none');
+			document.querySelector("body").style.overflow = "scroll";
+    });
+
 	window.sr = ScrollReveal({ /*reset: true*/ });
 	//*******************RESPONSIVE ANIMATIONS************************//
 	//----------SMALL SIZE SCREEN ANIM
@@ -20,7 +31,7 @@ $(document).ready(() => {
 			distance: '5rem',
 			viewFactor: 1,
 		});
-		sr.reveal('p.lead', {
+		sr.reveal('.lead', {
 			duration: 1000,
 			origin: 'top',
 			distance: '5rem',
@@ -102,13 +113,13 @@ $(document).ready(() => {
 			scale: 0.75,
 			delay: 600
 		});
-		sr.reveal('p.bioP1', {
+		sr.reveal('.bioP1', {
 			duration: 700,
 			origin: 'top',
 			distance: '5rem',
 			viewFactor: 0,
 		});
-		sr.reveal('p.bioP2', {
+		sr.reveal('.bioP2', {
 			duration: 700,
 			origin: 'top',
 			distance: '5rem',
@@ -131,7 +142,7 @@ $(document).ready(() => {
 			distance: '5rem',
 			viewFactor: 1,
 		});
-		sr.reveal('p.lead', {
+		sr.reveal('.lead', {
 			duration: 1000,
 			origin: 'top',
 			distance: '5rem',
@@ -213,13 +224,13 @@ $(document).ready(() => {
 			scale: 0.75,
 			delay: 600
 		});
-		sr.reveal('p.bioP1', {
+		sr.reveal('.bioP1', {
 			duration: 700,
 			origin: 'top',
 			distance: '5rem',
 			viewFactor: 0,
 		});
-		sr.reveal('p.bioP2', {
+		sr.reveal('.bioP2', {
 			duration: 700,
 			origin: 'top',
 			distance: '5rem',
@@ -244,7 +255,7 @@ $(document).ready(() => {
 			distance: '5rem',
 			viewFactor: 1,
 		});
-		sr.reveal('p.lead', {
+		sr.reveal('.lead', {
 			duration: 1000,
 			origin: 'left',
 			distance: '5rem',
@@ -319,13 +330,13 @@ $(document).ready(() => {
 			viewFactor: 0,
 			delay: 300
 		});
-		sr.reveal('p.bioP1', {
+		sr.reveal('.bioP1', {
 			duration: 700,
 			origin: 'top',
 			distance: '5rem',
 			viewFactor: 0,
 		});
-		sr.reveal('p.bioP2', {
+		sr.reveal('.bioP2', {
 			duration: 700,
 			origin: 'top',
 			distance: '5rem',
@@ -348,11 +359,6 @@ $(document).ready(() => {
 		});
 	
 	}
-//hide loading when all is loaded
-$(".loader-wrapper").css('display', 'none');
-document.querySelector("body").style.overflow = "scroll";
-
-
 
 	//hide & show navbar by scrolling
 	$(window).scroll(function () {
@@ -702,16 +708,6 @@ document.querySelector("body").style.overflow = "scroll";
 		}
 	}
 
-	// When the user clicks on the button, scroll to the top of the document
-	function topFunction() {
-		document.body.scrollTop = 0; // For Safari
-		document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-	}
-
-	//back to top button
-	$("#myBtn").click(function () {
-		topFunction();
-	});
 
 	/*FORMSPREE BUTTON*/
 	window.formbutton=window.formbutton||function(){
