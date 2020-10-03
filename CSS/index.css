@@ -1280,6 +1280,11 @@ section.bio p {
         top: 28rem;
         left: 1rem;
       }
+      .footer {
+        height: fit-content;
+        padding-top: 1rem;
+        background-color: #292929;
+    }
 }
 
 @media (max-width: 576px) {
