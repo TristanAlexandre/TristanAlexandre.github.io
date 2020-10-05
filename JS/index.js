@@ -718,7 +718,7 @@ $(document).ready(() => {
 			title: "Me contacter:", 
 			description: "Laissez moi un message et je vous répondrai dès que possible !",
 			theme: "classic",
-            buttonImg: "<span style='font-size:2.5rem; color: black'>✉</span>", 
+            buttonImg: "<img src='CSS/Images/envelope-regular.svg' class='upFooter'/>", 
             fields: [
                 {
                     type: "email",

@@ -1087,6 +1087,10 @@ section.bio p {
     max-height: 2.5rem;
     max-width: 2.5rem;
 }
+.upFooter {
+    height: 2rem;
+    width: 2rem;
+}
 
 
 .container2 {
@@ -1130,10 +1134,8 @@ section.bio p {
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
     background-color:#f8db61; /* Set a background color */
-    color: rgb(14, 14, 14); /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
     padding: 15px; /* Some padding */
-    font-size: 2rem; /* Increase font size */
   }
   
   #myBtn:hover {
