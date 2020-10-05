@@ -1083,15 +1083,11 @@ section.bio p {
 
 .contactFooter {
     color: rgba(255, 202, 87, 0.466);
-    font-size: 1.5rem;
     padding-left: 1rem;
+    max-height: 2.5rem;
+    max-width: 2.5rem;
 }
 
-.contactFooter:hover {
-    color: rgb(255, 202, 87);
-    font-size: 1.5rem;
-    padding-left: 1rem;
-}
 
 .container2 {
     width: auto;
