@@ -718,7 +718,7 @@ $(document).ready(() => {
 			title: "Me contacter:", 
 			description: "Laissez moi un message et je vous répondrai dès que possible !",
 			theme: "classic",
-            buttonImg: "<i class='fas fa-comment' style='font-size:2.5rem; color: black'/>", 
+            buttonImg: "<span style='font-size:2.5rem; color: black'>✉</span>", 
             fields: [
                 {
                     type: "email",

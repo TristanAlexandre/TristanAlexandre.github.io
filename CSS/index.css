@@ -227,15 +227,17 @@ span.dot {
     top: 55rem;
     left: 50%;
     z-index: 2;
-    color: rgb(189, 189, 189);
-    font-size: 2rem;
     transition: transform .1s ease-out;
+    color: #ffffff;
+    font-size: 2rem;
 }
 
 .fleche:hover {
     transform: translate(0%, 12%);
+    text-decoration: none;
     color: #e2af40;
 }
+
 
 /*VIDEO BACKGROUND*/
 
@@ -1135,11 +1137,12 @@ section.bio p {
     color: rgb(14, 14, 14); /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
     padding: 15px; /* Some padding */
-    font-size: 18px; /* Increase font size */
+    font-size: 2rem; /* Increase font size */
   }
   
   #myBtn:hover {
     background-color: rgb(250, 200, 64); /* Add a dark-grey background on hover */
+    text-decoration: none;
   }
 
 /*RESPONSIVE*/
