@@ -226,16 +226,15 @@ span.dot {
     position: absolute;
     top: 55rem;
     left: 50%;
-    z-index: 2;
+    z-index: 3;
+    height: 2rem;
+    width: 2rem;
     transition: transform .1s ease-out;
-    color: #ffffff;
-    font-size: 2rem;
 }
 
 .fleche:hover {
     transform: translate(0%, 12%);
     text-decoration: none;
-    color: #e2af40;
 }
 
 
