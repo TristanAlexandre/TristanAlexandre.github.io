@@ -502,7 +502,7 @@ section.gallerie h1 {
 }
 .timelinePic {
     width: 30rem;
-    height: 100%;
+    height: auto;
 } 
 
 ol {
