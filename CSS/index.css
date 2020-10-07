@@ -501,6 +501,7 @@ section.gallerie h1 {
     font-weight: bolder;
 }
 .timelinePic {
+    min-width: auto;
     width: 30rem;
 } 
 
@@ -1521,5 +1522,7 @@ section.bio p {
 
         height: auto;
     }
-
+    .timelinePic {
+        width: 10rem;
+    } 
 }
