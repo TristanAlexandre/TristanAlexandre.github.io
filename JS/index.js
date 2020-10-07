@@ -14,17 +14,15 @@ $(document).ready(() => {
 	var iframe = $('#videoLoaded');
     var player = new Vimeo.Player(iframe);
 
-    player.on('play', function() {
-        //hide loading when all is loaded
-			$(".loader-wrapper").css('display', 'none');
-			document.querySelector("body").style.overflow = "scroll";
-    });
+    
 
 	window.sr = ScrollReveal({ /*reset: true*/ });
 	//*******************RESPONSIVE ANIMATIONS************************//
 	//----------SMALL SIZE SCREEN ANIM
 	if (minWidth200px.matches) {
-	
+	//hide loading when all is loaded
+	$(".loader-wrapper").css('display', 'none');
+	document.querySelector("body").style.overflow = "scroll";
 		sr.reveal('h1.banner', {
 			duration: 1000,
 			origin: 'top',
@@ -136,6 +134,9 @@ $(document).ready(() => {
 	
 	};
 	if (minWidth640px.matches) {
+		//hide loading when all is loaded
+		$(".loader-wrapper").css('display', 'none');
+		document.querySelector("body").style.overflow = "scroll";
 		sr.reveal('h1.banner', {
 			duration: 1000,
 			origin: 'top',
@@ -247,7 +248,11 @@ $(document).ready(() => {
 	};
 	//------LARGE SIZE SCREEN ANIM
 	if (minWidth1024px.matches) {
-	
+		player.on('play', function() {
+			//hide loading when all is loaded
+				$(".loader-wrapper").css('display', 'none');
+				document.querySelector("body").style.overflow = "scroll";
+		});
 		//banner anim
 		sr.reveal('h1.banner', {
 			duration: 1000,

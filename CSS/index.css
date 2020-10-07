@@ -359,7 +359,7 @@ section.gallerie h1 {
 .column img {
     vertical-align: middle;
     width: 100%;
-   
+    height: 100%;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
@@ -1025,7 +1025,7 @@ h1.h1Bio {
     margin: auto;
 }
 .bioPic {
-    height: auto;
+    height: 15rem;
     max-width: 20rem;
 }
 
