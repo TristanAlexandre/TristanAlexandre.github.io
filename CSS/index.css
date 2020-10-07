@@ -501,7 +501,7 @@ section.gallerie h1 {
     font-weight: bolder;
 }
 .timelinePic {
-    min-width: auto;
+    min-width: 10rem;
     width: 30rem;
 } 
 
