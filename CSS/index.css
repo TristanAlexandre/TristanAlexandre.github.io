@@ -1270,7 +1270,6 @@ section.bio p {
       }
       .timelinePic {
         width: 28rem;
-        height: auto;
     }
     header .container1 {
         top: 40rem;
@@ -1311,7 +1310,6 @@ section.bio p {
       }
       .timelinePic {
         width: 25rem;
-        height: auto;
     }
     header .container1 {
         top: 40rem;
@@ -1368,7 +1366,6 @@ section.bio p {
     }
     .timelinePic {
         width: 19rem;
-        height: auto;
     }
     header .container1 {
         top: 40rem;
@@ -1428,7 +1425,6 @@ section.bio p {
       }
       .timelinePic {
         width: 18rem;
-        height: auto;
     }
     h1.banner {
         line-height: 4rem;
@@ -1494,7 +1490,6 @@ section.bio p {
       }
       .timelinePic {
         width: 15rem;
-        height: auto;
     }
     h1.banner {
         line-height: 3.5rem;
@@ -1522,7 +1517,4 @@ section.bio p {
 
         height: auto;
     }
-    .timelinePic {
-        width: 10rem;
-    } 
 }
