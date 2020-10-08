@@ -23,6 +23,10 @@ $(document).ready(() => {
 	//hide loading when all is loaded
 	$(".loader-wrapper").css('display', 'none');
 	document.querySelector("body").style.overflow = "scroll";
+
+	//$('div.img-hover-zoom').removeClass("img-hover-zoom--quick-zoom");
+	//$('div.img-hover-zoom').removeClass("img-hover-zoom");
+
 		sr.reveal('h1.banner', {
 			duration: 1000,
 			origin: 'top',
@@ -137,6 +141,10 @@ $(document).ready(() => {
 		//hide loading when all is loaded
 		$(".loader-wrapper").css('display', 'none');
 		document.querySelector("body").style.overflow = "scroll";
+
+		//$('div.img-hover-zoom').removeClass("img-hover-zoom--quick-zoom");
+		//$('div.img-hover-zoom').removeClass("img-hover-zoom");
+
 		sr.reveal('h1.banner', {
 			duration: 1000,
 			origin: 'top',
@@ -253,6 +261,8 @@ $(document).ready(() => {
 				$(".loader-wrapper").css('display', 'none');
 				document.querySelector("body").style.overflow = "scroll";
 		});
+
+		
 		//banner anim
 		sr.reveal('h1.banner', {
 			duration: 1000,

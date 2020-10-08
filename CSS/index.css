@@ -326,7 +326,7 @@ section.gallerie h1 {
 /*ZOOM EFFECT IMAGES*/
 
 .img-hover-zoom--quick-zoom img {
-    transform-origin: 50% 50%;
+    /*transform-origin: 50% 50%;*/
     transition: transform .25s, visibility .25s ease-in;
     -webkit-border-radius: 0%;
     -moz-border-radius: 0%;
