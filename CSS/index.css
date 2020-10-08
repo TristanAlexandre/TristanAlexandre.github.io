@@ -502,18 +502,23 @@ section.gallerie h1 {
     font-weight: bolder;
 }
 .timelinePic {
-    width: 20rem;
-    height: auto;
+    width: 80%;
+    margin: auto auto;
 } 
 .timelinePictureBox {
-    max-width: 30rem;
-    max-height: 40rem;
+ width: 50%;
+}
+.selected {
+   
 }
 
-ol {
-    list-style-type: none !important;
+div.events-content ol {
+    padding-left: 0rem !important;
+    padding-right: 0rem !important;
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
 }
-ul {
+ol, ul {
     list-style-type: none !important;
 }
 
@@ -796,6 +801,7 @@ div.events ol li a {
 }
 .cd-horizontal-timeline .events-content li > * {
   max-width: 800px;
+  width: fit-content;
   margin: 0 auto;
 }
 .cd-horizontal-timeline .events-content h2 {
@@ -803,11 +809,13 @@ div.events ol li a {
   font-size: 2rem;
   line-height: 1.2;
   text-transform: uppercase;
+  text-align: left;
 }
 .cd-horizontal-timeline .events-content em {
   display: block;
   font-style: italic;
   margin: 10px auto;
+  text-align: left;
 }
 .cd-horizontal-timeline .events-content em::before {
   content: '- ';
