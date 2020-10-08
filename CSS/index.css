@@ -324,33 +324,22 @@ section.gallerie h1 {
 }
 
 /*ZOOM EFFECT IMAGES*/
-/*
+
 .img-hover-zoom--quick-zoom img {
     transform-origin: 50% 50%;
     transition: transform .25s, visibility .25s ease-in;
-    -webkit-border-radius: 0%;
-    -moz-border-radius: 0%;
-    border-radius: 0%;
-    -khtml-border-radius: 0%;
 }
 
 .img-hover-zoom--quick-zoom:hover img {
     transform: scale(1.5);
-    -webkit-border-radius: 0%;
-    -moz-border-radius: 0%;
-    border-radius: 0%;
-    -khtml-border-radius: 0%;
+    cursor: pointer;
 }
 
 .img-hover-zoom {
     overflow: hidden;
     margin-top: 0.5rem;
     margin-bottom: 1.5rem;
-    -webkit-border-radius: 0%;
-    -moz-border-radius: 0%;
-    border-radius: 0%;
-    -khtml-border-radius: 0%;
-}*/
+}
 
 /*COLUMNS*/
 
