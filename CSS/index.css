@@ -508,9 +508,6 @@ section.gallerie h1 {
 .timelinePictureBox {
  width: 50%;
 }
-.selected {
-   
-}
 
 div.events-content ol {
     padding-left: 0rem !important;
@@ -1172,6 +1169,9 @@ section.bio p {
     .modal-xl {
         max-width: 848px;
     }
+    .carousel-control-next, .carousel-control-prev {
+        top: 24.4rem;
+    }
 }
 
 @media (max-width: 1440px) {
@@ -1189,6 +1189,9 @@ section.bio p {
     .modal-xl {
         max-width: 848px;
     }
+    .carousel-control-next, .carousel-control-prev {
+        top: 24.4rem;
+    }
 }
 
 /*XL*/
@@ -1204,6 +1207,9 @@ section.bio p {
     .modal-xl {
         max-width: 770px !important;
     }
+    .carousel-control-next, .carousel-control-prev {
+        top: 24.4rem;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -1217,6 +1223,9 @@ section.bio p {
     header .container1 {
         top: 33rem;
         left: 37rem;
+    }
+    .carousel-control-next, .carousel-control-prev {
+        top: 24.4rem;
     }
 }
 
@@ -1233,6 +1242,9 @@ section.bio p {
     header .container1 {
         top: 33rem;
         left: 35rem;
+    }
+    .carousel-control-next, .carousel-control-prev {
+        top: 24.4rem;
     }
 }
 
