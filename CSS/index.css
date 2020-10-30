@@ -480,7 +480,7 @@ section.gallerie h1 {
 
 .carousel-control-prev {
     left: 0;
-    top: 48.4rem;
+    top: 24.4rem;
     height: 3.6rem;
     opacity: 0.5;
     background-color: rgba(207, 207, 207, 0.562);
@@ -488,7 +488,7 @@ section.gallerie h1 {
 
 .carousel-control-next {
     right: 0;
-    top: 48.4rem;
+    top: 24.4rem;
     height: 3.6rem;
     background-color: rgba(207, 207, 207, 0.562);
 }
@@ -1272,9 +1272,6 @@ section.bio p {
         width: 100%;
         height: fit-content;
     }
-    .carousel-control-next, .carousel-control-prev  {
-        top: 9.2rem;
-    }
     #myBtn {
         bottom: 21px;
         right: 8rem; /* Place the button 30px from the right */
@@ -1283,6 +1280,9 @@ section.bio p {
         top: 40rem;
         left: 1rem;
       }
+      .carousel-control-next, .carousel-control-prev {
+        top: 24.4rem;
+    }
     
 }
 
