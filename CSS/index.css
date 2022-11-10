@@ -264,6 +264,22 @@ header iframe {
     transform: translateX(-50%) translateY(-50%);
 }
 
+header .background-hide-controls-vimeo {
+    background-color: #020204;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    min-width: 640px;
+    min-height: 12vh;
+    width: 640px;
+    height: 15vh;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
 header .container1 {
     position: absolute;
     z-index: 2;
@@ -1164,13 +1180,45 @@ section.bio p {
         left: 89rem;
     }
     .fleche {
-        top: 70rem;
+        top: 122rem;
+        width: 6rem;
+        height: 7rem;
     }
     .modal-xl {
         max-width: 848px;
     }
     .carousel-control-next, .carousel-control-prev {
         top: 24.4rem;
+    }
+    header iframe {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        min-width: 79rem;
+        min-height: 100vh;
+        width: auto;
+        height: 100vh;
+        z-index: 0;
+        -ms-transform: translateX(-50%) translateY(-50%);
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+    }
+    
+    header .background-hide-controls-vimeo {
+ 
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        min-width: auto;
+        min-height: 12vh;
+        width: auto;
+        height: 19vh;
+        z-index: 0;
+        -ms-transform: translateX(-50%) translateY(-50%);
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
     }
 }
 
@@ -1180,7 +1228,10 @@ section.bio p {
         left: 52rem;
     }
     .fleche {
-        top: 49rem;
+        top: 63rem;
+        left: 48%;
+        height: 5rem;
+        width: 4rem;
     }
     #myBtn {
         bottom: 21px;
@@ -1192,6 +1243,36 @@ section.bio p {
     .carousel-control-next, .carousel-control-prev {
         top: 24.4rem;
     }
+    header iframe {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        min-width: 33rem;
+        min-height: 100vh;
+        width: auto;
+        height: 100vh;
+        z-index: 0;
+        -ms-transform: translateX(-50%) translateY(-50%);
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+    }
+    
+    header .background-hide-controls-vimeo {
+
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        min-width: 640px;
+        min-height: 28vh;
+        width: 640px;
+        height: 28vh;
+        z-index: 0;
+        -ms-transform: translateX(-50%) translateY(-50%);
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+    }
 }
 
 /*XL*/
@@ -1202,7 +1283,7 @@ section.bio p {
         left: 45rem;
     }
     .fleche {
-        top: 49rem;
+        top: 47rem;
     }
     .modal-xl {
         max-width: 770px !important;
@@ -1232,6 +1313,12 @@ section.bio p {
 /*LG*/
 
 @media (max-width: 992px) {
+    .fleche {
+        top: 50rem;
+        left: 48%;
+        height: 3rem;
+        width: 4rem;
+    }
     .bgBio {
         background-color: rgb(218, 218, 218);
         width: 60%;
@@ -1251,6 +1338,12 @@ section.bio p {
 /*MD*/
 
 @media (max-width: 768px) {
+    .fleche {
+        top: 50rem;
+        left: 48%;
+        height: 3rem;
+        width: 4rem;
+    }
     .bgBio {
         background-color: rgb(218, 218, 218);
         width: 90%;
@@ -1264,9 +1357,6 @@ section.bio p {
     header .container1 {
         top: 40rem;
         left: 14rem;
-    }
-    .fleche {
-        top: 51rem;
     }
     .carousel-item {
         width: 100%;
@@ -1322,6 +1412,12 @@ section.bio p {
 
         height: auto;
     }
+    .fleche {
+        top: 48rem;
+        left: 45%;
+        height: 3rem;
+        width: 3rem;
+    }
 }
 
 @media (max-width: 576px) {
@@ -1359,6 +1455,12 @@ section.bio p {
     .embed-responsive {
 
         height: auto;
+    }
+    .fleche {
+        top: 48rem;
+        left: 44%;
+        height: 3rem;
+        width: 3rem;
     }
 }
 
@@ -1417,6 +1519,12 @@ section.bio p {
 
         height: auto;
     }
+    .fleche {
+        top: 48rem;
+        left: 44%;
+        height: 3rem;
+        width: 3rem;
+    }
     
 }
 
@@ -1447,7 +1555,10 @@ section.bio p {
         font-size: 3rem;
     }
     .fleche {
-        top: 50rem;
+        top: 48rem;
+        left: 44%;
+        height: 3rem;
+        width: 3rem;
     }
     .carousel-item {
         width: 100%;
@@ -1510,7 +1621,10 @@ section.bio p {
         font-size: 2.5rem;
     }
     .fleche {
-        top: 50rem;
+        top: 48rem;
+        left: 44%;
+        height: 3rem;
+        width: 3rem;
     }
     .carousel-item {
         width: 100%;
